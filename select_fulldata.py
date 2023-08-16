@@ -1,5 +1,4 @@
 import sqlite3
-import pandas as pd
 
 connection = sqlite3.connect('database.db')
 cur = connection.cursor()
